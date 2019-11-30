@@ -1,13 +1,10 @@
 package br.com.ufc.dados;
 
-import java.util.List;
-
 public class Pessoa {
 	private String nome;
 	private String email;
 	private String sobrenome;
 	private String senha;
-	List <Pessoa> pessoa;
 	
 	public String getNome() {
 		return nome;
@@ -33,10 +30,5 @@ public class Pessoa {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-
-	
-	public void verPessoa() {
-	System.out.println(this.nome + this.sobrenome);
-	}
-
 }
+//1128l

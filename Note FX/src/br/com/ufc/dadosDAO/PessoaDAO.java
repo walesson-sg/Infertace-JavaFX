@@ -55,7 +55,7 @@ public class PessoaDAO {
 				System.out.println("nome: " + pessoa.getNome() + "\nsobrenome: " + pessoa.getSobrenome());
 			}
 		}
-	}
+	} 
 	
 //	public static List<String> getLista() {
 //		return lista;
@@ -64,6 +64,4 @@ public class PessoaDAO {
 //	public static void setLista(List<String> lista) {
 //		PessoaDAO.lista = lista;
 //	}
-
-
 }

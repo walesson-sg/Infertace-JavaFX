@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="1000.0" maxWidth="1000.0" minHeight="200.0" minWidth="200.0" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX3.Controller3">
    <children>
-      <Button fx:id="button1" layoutX="240.0" layoutY="323.0" mnemonicParsing="false" onAction="#actionButton1" text="Adicionar" />
+      <Button fx:id="button1" layoutX="182.0" layoutY="323.0" mnemonicParsing="false" onAction="#actionButton1" text="Adicionar" />
       <ScrollPane hbarPolicy="NEVER" layoutX="34.0" layoutY="60.0" prefHeight="257.0" prefWidth="379.0">
          <content>
             <VBox fx:id="vBox" alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="269.0" prefWidth="376.0">
@@ -27,20 +27,21 @@
             <Font size="23.0" />
          </font>
       </Text>
-      <ImageView fitHeight="78.0" fitWidth="200.0" layoutX="370.0" layoutY="318.0">
+      <ImageView fitHeight="243.0" fitWidth="130.0" layoutX="430.0" layoutY="61.0">
          <image>
-            <Image url="@../../../../../Sem%20título.png" />
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/picpay.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="65.0" fitWidth="231.0" layoutX="1.0" layoutY="323.0">
+      <ImageView fitHeight="63.0" fitWidth="124.0" layoutX="21.0" layoutY="326.0">
          <image>
-            <Image url="@../../../../../Sem%20títusssssslo.png" />
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/Sem%20títusssssslo.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="301.0" fitWidth="138.0" layoutX="418.0" layoutY="14.0">
+      <ImageView fitHeight="63.0" fitWidth="271.0" layoutX="285.0" layoutY="326.0">
          <image>
-            <Image url="@../../../../../picpay.png" />
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/Sem%20título.png" />
          </image>
       </ImageView>
+      <Button fx:id="buttonSair" layoutX="201.0" layoutY="358.0" mnemonicParsing="false" onAction="#actionSair" text="Sair" />
    </children>
 </AnchorPane>

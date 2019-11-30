@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 
 public class Controller2 extends PessoaDAO{
 	Pessoa pessoa = new Pessoa();
@@ -26,7 +27,7 @@ public class Controller2 extends PessoaDAO{
     private TextField txtEmail;
 
     @FXML
-    private TextField txtSenha;
+    private PasswordField txtSenha;
     
     @FXML
     private Label txtLabel;
@@ -49,7 +50,7 @@ public class Controller2 extends PessoaDAO{
         	
         	pessoaDAO.addPessoa(pessoa);
 
-
+        	System.out.println("Cadastro realizado com sucesso.");
        	    ((Stage)buttonConfirmar.getScene().getWindow()).close();	
 //    	});
     	

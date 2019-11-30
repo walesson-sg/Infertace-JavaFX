@@ -1,11 +1,13 @@
 package applicationFX3;
 
+import applicationFX1.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 public class Controller3 {
 
@@ -23,6 +25,9 @@ public class Controller3 {
 
     @FXML
     private Button buttonCadastro;
+    
+    @FXML
+    private Button buttonSair;
 
     @FXML
     void actionButton1(ActionEvent event) {
@@ -41,6 +46,13 @@ public class Controller3 {
     @FXML
     void actionCadastrar(ActionEvent event) {
 
+    }
+    
+    @FXML
+    void actionSair(ActionEvent event) {
+    	((Stage)buttonSair.getScene().getWindow()).close();
+    	Main main = new Main();
+    	main.start(new Stage());
     }
 
 }

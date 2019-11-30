@@ -1,7 +1,5 @@
 package applicationFX1;
 
-
-import applicationFX2.Controller2;
 import applicationFX2.Start1;
 import applicationFX3.Start2;
 import br.com.ufc.dados.Pessoa;
@@ -15,7 +13,6 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Controller extends PessoaDAO {
-		private Stage stage;
 
 		Pessoa pessoa = new Pessoa();
 	
@@ -43,12 +40,12 @@ public class Controller extends PessoaDAO {
     @FXML
     void actionEntrar(ActionEvent event) throws Exception{
     	arquivoLer();
-    	if(lista.contains(login.getText())){
+     	if(lista.contains(login.getText()) && lista.contains(txtSenha)){
     	Start2 start2 = new Start2();
     	start2.start(new Stage());
     	
     	((Stage)buttonEntrar.getScene().getWindow()).close();
-    	}else {System.out.println();}
+    	}else {System.out.println("Senha ou login incorretos. ou simplesmente deu bug...");}
     	
     	}
     }
