@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX2.Controller2">
+   <children>
+      <Button fx:id="buttonConfirmar" layoutX="138.0" layoutY="329.0" mnemonicParsing="false" onAction="#actionConfirmar" prefHeight="35.0" prefWidth="111.0" text="Confirmar" />
+      <TextField fx:id="txtNome" accessibleRole="IMAGE_VIEW" depthTest="DISABLE" layoutX="63.0" layoutY="99.0" prefHeight="30.0" prefWidth="260.0">
+         <cursor>
+            <Cursor fx:constant="NW_RESIZE" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtSobrenome" layoutX="63.0" layoutY="154.0" prefHeight="30.0" prefWidth="260.0" />
+      <TextField fx:id="txtEmail" layoutX="63.0" layoutY="209.0" prefHeight="30.0" prefWidth="260.0" />
+      <Text layoutX="131.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CADASTRO" wrappingWidth="132.263671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="94.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <Text layoutX="63.0" layoutY="149.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobrenome" />
+      <Text layoutX="63.0" layoutY="205.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Label layoutX="63.0" layoutY="243.0" opacity="0.51" text="Senha" />
+      <Text fill="#ab1313" layoutX="341.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CATASTRE-SE DE GRAÇA">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#ab1515" layoutX="354.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E SEJA FELIZ">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Label fx:id="txtLabel" layoutX="152.0" layoutY="301.0" prefHeight="21.0" prefWidth="97.0" textFill="RED">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtSenha" layoutX="64.0" layoutY="264.0" prefHeight="31.0" prefWidth="260.0" />
+      <ImageView fitHeight="71.0" fitWidth="178.0" layoutX="416.0" layoutY="6.0">
+         <image>
+            <Image url="@../../../../../bobs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="260.0" layoutX="334.0" layoutY="211.0">
+         <image>
+            <Image url="@../../../../../propagandas.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

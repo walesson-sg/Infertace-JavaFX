@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1000.0" maxWidth="1000.0" minHeight="200.0" minWidth="200.0" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX3.Controller3">
+   <children>
+      <Button fx:id="button1" layoutX="240.0" layoutY="323.0" mnemonicParsing="false" onAction="#actionButton1" text="Adicionar" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="34.0" layoutY="60.0" prefHeight="257.0" prefWidth="379.0">
+         <content>
+            <VBox fx:id="vBox" alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="269.0" prefWidth="376.0">
+               <children>
+                  <TextField fx:id="txtField3" onAction="#actionButton1" prefHeight="0.0" prefWidth="495.0" />
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Text fill="#bf1111" layoutX="34.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="78.0" fitWidth="200.0" layoutX="370.0" layoutY="318.0">
+         <image>
+            <Image url="@../../../../../Sem%20título.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="231.0" layoutX="1.0" layoutY="323.0">
+         <image>
+            <Image url="@../../../../../Sem%20títusssssslo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="301.0" fitWidth="138.0" layoutX="418.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../../picpay.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
