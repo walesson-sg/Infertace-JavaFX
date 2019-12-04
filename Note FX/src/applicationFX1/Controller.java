@@ -40,7 +40,7 @@ public class Controller extends PessoaDAO {
     @FXML
     void actionEntrar(ActionEvent event) throws Exception{
     	arquivoLer();
-     	if(lista.contains(login.getText()) && lista.contains(txtSenha)){
+     	if(lista.contains(login.getText())){
     	Start2 start2 = new Start2();
     	start2.start(new Stage());
     	

@@ -46,14 +46,14 @@
          </font>
       </Label>
       <PasswordField fx:id="txtSenha" layoutX="64.0" layoutY="264.0" prefHeight="31.0" prefWidth="260.0" />
-      <ImageView fitHeight="160.0" fitWidth="231.0" layoutX="355.0" layoutY="225.0">
-         <image>
-            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/propagandas.png" />
-         </image>
-      </ImageView>
       <ImageView fitHeight="86.0" fitWidth="253.0" layoutX="333.0" layoutY="14.0">
          <image>
             <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/bobs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="253.0" layoutX="333.0" layoutY="251.0">
+         <image>
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/PROPAGANDA3.png" />
          </image>
       </ImageView>
    </children>

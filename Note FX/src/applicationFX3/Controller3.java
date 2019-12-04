@@ -34,9 +34,9 @@ public class Controller3 {
     	Button button2 = new Button(txtField3.getText());
     	button2.setOnAction(e -> {
 	
-    		System.out.println(vBox.getChildren().indexOf(button2)); // indexOf retorna o numero do indice
+    		System.out.println(vBox.getChildren().indexOf(button2)); // indexOf retorna o número do indice
     		
-    		}); // tudo q eu quiser pourra
+    		});
      	
     	vBox.getChildren().add(button2); //lista
     

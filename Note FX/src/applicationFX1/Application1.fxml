@@ -24,9 +24,9 @@
       </Label>
       <Button fx:id="buttonCadastro" layoutX="295.0" layoutY="141.0" mnemonicParsing="false" onAction="#actionCadastro" text="CADASTRAR-SE" />
       <Text fx:id="txtMSG" layoutX="61.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="187.0000061392784" />
-      <ImageView fitHeight="135.0" fitWidth="155.0" layoutX="283.0" layoutY="178.0">
+      <ImageView fitHeight="131.0" fitWidth="187.0" layoutX="259.0" layoutY="179.0">
          <image>
-            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/Sem%20títuloddddddddddddddddd.png" />
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/PROPAGANDA1.png" />
          </image>
       </ImageView>
    </children>

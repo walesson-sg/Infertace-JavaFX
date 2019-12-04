@@ -1,7 +1,6 @@
 package br.com.ufc.dadosDAO;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -56,12 +55,5 @@ public class PessoaDAO {
 			}
 		}
 	} 
-	
-//	public static List<String> getLista() {
-//		return lista;
-//	}
-//
-//	public static void setLista(List<String> lista) {
-//		PessoaDAO.lista = lista;
-//	}
+
 }
