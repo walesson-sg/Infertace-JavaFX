@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="1000.0" maxWidth="1000.0" minHeight="200.0" minWidth="200.0" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX3.Controller3">
+<AnchorPane maxHeight="1000.0" maxWidth="1000.0" minHeight="200.0" minWidth="200.0" prefHeight="559.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX3.Controller3">
    <children>
-      <Button fx:id="button1" layoutX="182.0" layoutY="323.0" mnemonicParsing="false" onAction="#actionButton1" text="Adicionar" />
-      <ScrollPane hbarPolicy="NEVER" layoutX="34.0" layoutY="60.0" prefHeight="257.0" prefWidth="379.0">
+      <Button fx:id="button1" layoutX="304.0" layoutY="70.0" mnemonicParsing="false" onAction="#actionButton1" text="Adicionar" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="34.0" layoutY="101.0" prefHeight="333.0" prefWidth="573.0">
          <content>
-            <VBox fx:id="vBox" alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="269.0" prefWidth="376.0">
-               <children>
-                  <TextField fx:id="txtField3" onAction="#actionButton1" prefHeight="0.0" prefWidth="495.0" />
-               </children>
-            </VBox>
+            <ListView fx:id="list" prefHeight="333.0" prefWidth="579.0" />
          </content>
       </ScrollPane>
-      <Text fill="#bf1111" layoutX="34.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes">
+      <Text fill="#4500ff" layoutX="34.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTE FX - BEM VINDO - ">
          <font>
-            <Font size="23.0" />
+            <Font size="25.0" />
          </font>
       </Text>
-      <ImageView fitHeight="243.0" fitWidth="130.0" layoutX="430.0" layoutY="61.0">
-         <image>
-            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/picpay.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="buttonSair" layoutX="201.0" layoutY="358.0" mnemonicParsing="false" onAction="#actionSair" text="Sair" />
-      <ImageView fitHeight="63.0" fitWidth="244.0" layoutX="312.0" layoutY="327.0">
+      <Button fx:id="buttonSair" layoutX="40.0" layoutY="486.0" mnemonicParsing="false" onAction="#actionSair" text="Sair" />
+      <ImageView fitHeight="63.0" fitWidth="244.0" layoutX="526.0" layoutY="463.0">
          <image>
             <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/PROPAGANDA3.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="63.0" fitWidth="175.0" layoutX="1.0" layoutY="327.0">
+      <ImageView fitHeight="63.0" fitWidth="175.0" layoutX="280.0" layoutY="472.0">
          <image>
             <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/PROPAGANDA4.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="243.0" fitWidth="130.0" layoutX="648.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/picpay.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtField3" layoutX="34.0" layoutY="70.0" prefHeight="31.0" prefWidth="270.0" promptText="dialogo" />
+      <Button fx:id="remover" layoutX="524.0" layoutY="70.0" mnemonicParsing="false" onAction="#removerAction" prefHeight="31.0" prefWidth="83.0" text="Remover" />
+      <Label fx:id="label" layoutX="35.0" layoutY="434.0" prefHeight="21.0" prefWidth="573.0" text="Label" textFill="RED" visible="false" />
    </children>
 </AnchorPane>

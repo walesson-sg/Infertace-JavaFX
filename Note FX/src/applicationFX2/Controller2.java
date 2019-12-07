@@ -35,25 +35,25 @@ public class Controller2 extends PessoaDAO{
     @FXML
     void actionConfirmar(ActionEvent event) {
     	
-    	buttonConfirmar.setOnAction(e -> {
+ //   	buttonConfirmar.setOnAction(e -> {
     		pessoa.setNome(txtNome.getText());
-    		pessoaDAO.arquivoGravar(txtNome.getText());
+    		pessoaDAO.arquivoGravar(txtNome.getText()+ ",");
     		
         	pessoa.setSobrenome(txtSobrenome.getText());
-        	pessoaDAO.arquivoGravar(txtSobrenome.getText());
+        	pessoaDAO.arquivoGravar(txtSobrenome.getText()+ ",");
         	
         	pessoa.setEmail(txtEmail.getText());
-        	pessoaDAO.arquivoGravar(txtEmail.getText());
+        	pessoaDAO.arquivoGravar(txtEmail.getText()+ ",");
         	
         	pessoa.setSenha(txtSenha.getText());
-        	pessoaDAO.arquivoGravar(txtSenha.getText());
-        	
+        	pessoaDAO.arquivoGravar(txtSenha.getText()+ ",");
+        	pessoaDAO.arquivoGravar("\n");
         	
         	pessoaDAO.addPessoa(pessoa);
         	System.out.println("Cadastro realizado com sucesso.");
         	 ((Stage)buttonConfirmar.getScene().getWindow()).close();
    	
-    	});
+ //   	});
     	
     }
 }

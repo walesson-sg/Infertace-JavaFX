@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX1.Controller">
+<AnchorPane maxHeight="500.0" maxWidth="500.0" minHeight="328.0" minWidth="460.0" prefHeight="328.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationFX1.Controller">
    <children>
       <Button fx:id="buttonEntrar" layoutX="117.0" layoutY="198.0" mnemonicParsing="false" onAction="#actionEntrar" text="ENTRAR" />
       <TextField fx:id="login" layoutX="61.0" layoutY="84.0" />
@@ -29,5 +29,6 @@
             <Image url="@../../../../../Desktop/Programação/JavaFX/Note%20FX/PROPAGANDA1.png" />
          </image>
       </ImageView>
+      <Label fx:id="label" layoutX="62.0" layoutY="249.0" prefHeight="11.0" prefWidth="187.0" text="Label" textFill="RED" visible="false" />
    </children>
 </AnchorPane>
